@@ -1,0 +1,27 @@
+.center {
+    display: flex;
+    justify-content: 'center';
+    align-items: 'center';
+    flex-direction: column;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 40% 60% ;
+    justify-content: 'left';
+    align-items: 'left';
+    
+    flex-direction: unset;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.flex-item { 
+    padding: 5px;
+    margin: 5px;
+
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+  }
